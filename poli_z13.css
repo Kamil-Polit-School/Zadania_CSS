@@ -1,0 +1,11 @@
+body {
+    background-color: rgb(150, 150, 156);
+    color: blue;
+    text-align: center;
+    font-size: 45mm;
+}
+
+p {
+    color: green;
+    font-size: 35mm;
+}

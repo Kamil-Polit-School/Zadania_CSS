@@ -1,0 +1,67 @@
+<!-- Kamil Polit, 01.12.2021 -->
+
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+	<!-- TITLE -->
+	<title> CSS </title>
+	
+	<!-- META -->
+    <meta http-equiv="content-type" content="text/html;" />
+	<meta name="Description" content="Zadanie 4" />
+	<meta name="Author" content="Kamil Polit" />
+	<meta charset="UTF-8" />
+</head>
+<body>
+    <h1 align="center"> Nie rozumiem polecenia </h1><h2>Sposoby podłączania styli do strony.</h2>
+<br>
+1)Zewnętrzny arkusz stylów.<br>
+<textarea rows=8 cols=57>
+
+<head>
+	<link rel="Stylesheet" type="text/css" href="style.css" />
+</head>
+
+</textarea> <br>
+<br>
+2)Styl lokalny inaczej: (styl wpisany, liniowy, linijkowy, w linii) czyli <br>
+dopisanie arkusza do wybranego bloku treści strony.<br>
+
+<textarea rows=5 cols=75>
+
+<selektor style="cecha1: wartość1; cecha2: wartość2...">...</selektor>
+
+</textarea> <br> <br>
+3)Wewnętrzny arkusz stylów.<br>
+<textarea rows=12 cols=59>
+
+<head>
+	 <style type="text/css">
+	 selektor1 { cecha: wartość; cecha2: wartość2... }
+	 selektor2 { cecha: wartość; cecha2: wartość2... }
+	 </style>
+</head>
+
+</textarea> <br> <br>
+
+4)Alternatywny arkusz stylów.<br>
+<textarea rows=12 cols=85>
+
+<head>
+	<link rel="Stylesheet" type="text/css" href="style.css" title="Nazwa domyślna" />
+	<link rel="Alternate stylesheet" type="text/css" href="style1.css" title="Nazwa 1" />
+	<link rel="Alternate stylesheet" type="text/css" href="style2.css" title="Nazwa 2" />
+</head>
+
+</textarea> <br> <br>
+
+5)Import arkusza stylów.<br>
+<textarea rows=5 cols=50>
+
+<style type="text/css">
+ @import url(adres zewnętrznego arkusza stylów);
+</style>
+
+</textarea>
+</body>
+</html>
